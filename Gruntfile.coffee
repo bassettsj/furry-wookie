@@ -1,4 +1,5 @@
 # Generated on 2014-01-26 using generator-reveal 0.3.3
+# Thanks for being awesome [slara / generator-reveal](https://github.com/slara/generator-reveal)
 module.exports = (grunt) ->
 
     grunt.initConfig
@@ -31,7 +32,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
             sass:
                 files: ['css/source/theme.scss']
                 tasks: ['sass']
@@ -40,8 +41,8 @@ module.exports = (grunt) ->
 
             theme:
                 files:
-                    'css/theme.css': 'css/source/theme.scss'
-        
+                    'css/theme.css': 'scss/theme.scss'
+
         connect:
 
             livereload:
