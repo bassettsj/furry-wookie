@@ -1,5 +1,4 @@
 # Generated on 2014-01-26 using generator-reveal 0.3.3
-# Thanks for being awesome [slara / generator-reveal](https://github.com/slara/generator-reveal)
 module.exports = (grunt) ->
 
     grunt.initConfig
