@@ -1,0 +1,7 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Acessibility strategies for Bookshare's CMS integration, (Drupal 7)",
+    "packageVersion": "0.0.0",
+    "useSass": true
+  }
+}
